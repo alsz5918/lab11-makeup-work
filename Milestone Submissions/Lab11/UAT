@@ -1,0 +1,25 @@
+Restaurant and Review Navigation
+Restaurants: 
+    The user should be able to search based on both location and keywords
+    User Activity: Type keywords into the search bar and submit; edit location from menu
+    Expected result: Generate a relevant list of restaurants
+Reviews: 
+    The user should be able to navigate to reviews of the displayed restaurants
+    Test Data: 10 Restaurants in Boulder under the keyword 'taco'
+    User Activity: Click the 'Reviews' button associated with each restaurant
+    Expected result: Generate a list of top reviews of selected restaurant
+        Addendum - Priority given to reviews created through website rather than yelp api
+Test Data:
+    Yelp Fusion API
+    Generated list of 10 Boulder restaurants under the keyword 'taco'
+Test Environment:
+    Yelp Fusion API
+    Generated webpage showing 10 restaurants and links to review pages
+    Small sample of real Yelp reviews with majority from our local database
+Test Results:
+    Successfully generated list of restaurants
+    Functional links
+    No duplicate entries for either category
+User Acceptance Testers:
+    Dev
+    A volunteer who's interested in exploring restaurants in the Boulder area
